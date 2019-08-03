@@ -1,9 +1,8 @@
-function countdown(countdown) {
-    while (countdown > 0) {
-        console.log(countdown);
-        countdown -= 1;
+function countdown(num) {
+    while (num > -1) {
+        console.log(num);
+        num -= 1;
     }
-    console.log(countdown);
 }
 
 function writeCards(names, event) {
